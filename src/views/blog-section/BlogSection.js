@@ -15,10 +15,10 @@ const BlogSection = () => {
                         <Card className="card-resize">
                             <Card.Img className="image-resize" variant="top" src="https://miro.medium.com/max/1000/0*DPnItWaXWVDA8qGJ" alt="Blog 1" />
                             <Card.Body>
-                                <a className="text-dark text-decoration-none" href="https://medium.com/javascript-in-plain-english/what-are-the-differences-between-state-and-props-in-react-74f21e39b172" target="_blank">
-                                    <Card.Title >What are the differences between State and Props in React?</Card.Title>
+                                <a className="text-dark text-decoration-none" href="xxxxx" target="_blank">
+                                    <Card.Title >Hosting a React App via AWS Amplify</Card.Title>
                                     <Card.Text>
-                                        How you use props and state, and what each of them is?
+                                        Coming Soon
                                     </Card.Text>
                                 </a>
                             </Card.Body>
@@ -28,36 +28,10 @@ const BlogSection = () => {
                         <Card className="card-resize">
                             <Card.Img className="image-resize" variant="top" src="https://miro.medium.com/max/700/0*g61HreCnSrR1JDUf" alt="Blog 2" />
                             <Card.Body>
-                                <a className="text-dark text-decoration-none" href="https://medium.com/better-programming/why-i-find-javascripts-destructuring-so-useful-7be41d9ba609" target="_blank">
-                                    <Card.Title >Why I JavaScript’s Destructuring So Useful</Card.Title>
+                                <a className="text-dark text-decoration-none" href="xxxxx" target="_blank">
+                                    <Card.Title >Building a ChatBot using AWS LEX</Card.Title>
                                     <Card.Text>
-                                    Array and object destructuring
-                                    </Card.Text>
-                                </a>
-                            </Card.Body>
-                        </Card>
-                    </Tilt>
-                    <Tilt>
-                        <Card className="card-resize">
-                            <Card.Img className="image-resize" variant="top" src="https://miro.medium.com/max/1000/0*3yUaO3J7RU6vTMSH" alt="Blog 3" />
-                            <Card.Body>
-                                <a className="text-dark text-decoration-none" href="https://medium.com/javascript-in-plain-english/why-i-love-the-spread-operator-58f396dbbb78" target="_blank">
-                                    <Card.Title>Why I Love The Spread Operator</Card.Title>
-                                    <Card.Text >
-                                    The Most Useful JavaScript Feature of ES6
-                                    </Card.Text>
-                                </a>
-                            </Card.Body>
-                        </Card>
-                    </Tilt>
-                    <Tilt>
-                        <Card className="card-resize">
-                            <Card.Img className="image-resize" variant="top" src="https://miro.medium.com/max/700/0*ofb-IyC65q82aIgq" alt="Blog 4" />
-                            <Card.Body>
-                                <a className="text-dark text-decoration-none" href="https://medium.com/javascript-in-plain-english/make-eye-catching-javascript-popups-with-sweet-alert-470e05ed026d" target="_blank">
-                                    <Card.Title >Make Eye-Catching JavaScript Popups with ‘Sweet Alert’</Card.Title>
-                                    <Card.Text>
-                                    An Attractive UI You can better alerts with
+                                    Coming Soon
                                     </Card.Text>
                                 </a>
                             </Card.Body>

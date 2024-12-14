@@ -7,11 +7,11 @@ import L_REDUX from "../../assets/img/skills/redux.svg";
 import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
-import L_HEROKU from "../../assets/img/skills/heroku.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_NETLIFY from "../../assets/img/skills/netlify-icon.svg"
-import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg"
+import L_POSTGRES from "../../assets/img/skills/postgresql.svg"
+import L_MYSQL from "../../assets/img/skills/mssql.svg"
 import L_VERCEL from "../../assets/img/skills/logo-vercel.svg"
 import L_TAILWIND from "../../assets/img/skills/tailwindcss-icon.svg"
 
@@ -114,16 +114,16 @@ export const skills = {
     ],
     databases: [
       {
-        link: "https://firebase.google.com/",
-        imgAltText: "Firebase Database",
-        imgSrc: L_FIREBASE,
-        skillName: "Firebase Database",
+        link: "https://www.postgresql.org/",
+        imgAltText: "PostgresSQL Database",
+        imgSrc: L_POSTGRES,
+        skillName: "PostgreSQL Database",
       },
       {
-        link: "https://firebase.google.com/docs/firestore",
-        imgAltText: "Firestore",
-        imgSrc: L_FIREBASE,
-        skillName: "Cloud Firestore",
+        link: "https://www.mysql.com/",
+        imgAltText: "MYSQL",
+        imgSrc: L_MYSQL,
+        skillName: "mySQL Database",
       },
     ],
     versionControl: [

@@ -14,14 +14,14 @@ const Contact = () => {
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">
-              <a href="mailto:adiba.abid_@hotmail.com" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-danger" title="adiba.abid_@hotmail.com">
+              <a href="mailto:hamweykyle@ymail.com" target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-danger" title="hamweykyle@ymail.com">
                   <i className="fas fa-envelope-square"></i> Email Me
                 </Button>
               </a>
             </div>
             <div className="m-2">
-            <a href="https://www.linkedin.com/in/adiba-abid-2658b9199/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/kyle-h-b856b925/" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-primary" title="Visit my LinkenIn">
                   <i className="fab fa-linkedin"></i> LinkedIn
                 </Button>
@@ -29,23 +29,16 @@ const Contact = () => {
             </div>
             
             <div className="m-2">
-            <a href="https://github.com/AdibaAbid" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/KHamwey" target="_blank" rel="noopener noreferrer">
                 <Button variant="outline-dark" title="My other projects">
                   <i className="fab fa-github-square"></i> GitHub
                 </Button>
               </a>
             </div>
             <div className="m-2">
-              <a href="https://medium.com/@adibaabid" target="_blank" rel="noopener noreferrer">
+              <a href="https://medium.com/@hamweykyle" target="_blank" rel="noopener noreferrer">
                 <Button id="medium-btn" variant="outline-info" title="Lets write together!">
                 <i class="fab fa-youtube"></i> Medium
-                </Button>
-              </a>
-            </div>
-            <div className="m-2">
-              <a href="https://twitter.com/home" target="_blank" rel="noopener noreferrer">
-                <Button variant="outline-info" title="Tweets are welcomed!">
-                  <i className="fab fa-twitter"></i> Twitter
                 </Button>
               </a>
             </div>

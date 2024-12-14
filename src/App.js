@@ -6,12 +6,12 @@ import TitleMessage from "./components/title-message/TitleMessage";
 import About from "./views/about/About";
 import { Parallax } from "react-parallax";
 import Fade from "react-reveal/Fade";
-import Bounce from "react-reveal/Bounce";
+/*  import Bounce from "react-reveal/Bounce"; */ 
 import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import Skills from "./views/skills/Skills";
 import Blog from "./views/blog-section/BlogSection";
-import Projects from "./views/projects/projects";
+/* import Projects from "./views/projects/projects"; */
 import Contact from "./views/contact/Contact";
 import Footer from "./components/footer/Footer";
 
@@ -46,14 +46,7 @@ function App() {
           </Container>
         </div>
 
-        <div>
-          <Container className="container-box rounded">
-            <Slide bottom duration={1000}>
-              <hr />
-              <Projects />
-            </Slide>
-          </Container>
-        </div>
+
 
         <div>
           <Container className="container-box rounded">
