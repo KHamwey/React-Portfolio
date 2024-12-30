@@ -1,0 +1,23 @@
+{
+  "short_name": "KylePortfolio",
+  "name": "Kyle Hamwey Portfolio",
+  "start_url": "https://www.kylehamwey.com/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#000000",
+  "description": "A React application showcasing Kyle Hamwey's portfolio.",
+  "icons": [
+    {
+      "src": "/static/media/logo-vercel.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192"
+    }
+  ],
+  "assets": {
+    "background": "/static/media/background.48c0b661eceefa5f596a.webp",
+    "slide1": "/static/media/slide1.14619b040f52684f1d90.webp",
+    "slide2": "/static/media/slide2.d58e7971f0d52b4f27b3.webp",
+    "slide3": "/static/media/slide3.ea32b5ab7ffc78454ce0.webp"
+  }
+}
+
