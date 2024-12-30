@@ -14,7 +14,7 @@
     }
   ],
   "assets": {
-    "background": "/static/media/background.48c0b661eceefa5f596a.webp",
+    "background": "/src/img/parallex/background.webp",
     "slide1": "/static/media/slide1.14619b040f52684f1d90.webp",
     "slide2": "/static/media/slide2.d58e7971f0d52b4f27b3.webp",
     "slide3": "/static/media/slide3.ea32b5ab7ffc78454ce0.webp"
