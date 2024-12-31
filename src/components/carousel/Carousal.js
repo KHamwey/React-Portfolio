@@ -5,8 +5,8 @@ import ScrollDown  from "../scroll-down/ScrollDown";
 
 import "./carousal.css";
 
-import  Slide1  from "../../assets/img/carousal/slide1.webp";
-import  Slide2  from "../../assets/img/carousal/slide2.webp";
+import  Slide1  from "../../assets/img/carousal/slide1.png";
+import  Slide2  from "../../assets/img/carousal/slide2.png";
 import  Slide3  from "../../assets/img/carousal/slide3.png";
 
 
