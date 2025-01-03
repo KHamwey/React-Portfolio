@@ -20,7 +20,7 @@ import ExpenseTracker from "../../assets/img/projects/Expense-TrackerApp.png";
 import MusicList from "../../assets/img/projects/Music-List-App.png";
 import QuizApp from "../../assets/img/projects/QuizzApp-JavaScript.png";
 import EmpolyeeTable from "../../assets/img/projects/Empolyee-table.png";
-import BloodDonateApp from "../../assets/img/projects/blood-donate-app.jpeg";
+import Portfolio from "../../assets/img/projects/portfolio.png";
 import FbComponent from "../../assets/img/projects/Fb-component.png";
 
 
@@ -58,13 +58,13 @@ const ProjectTimeline = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">PROJECTS</h1>
       <Timeline theme={customTheme}>
         <Events>
-           {/* //React Native BloodDonate App */}
+           {/* //React Portfolio */}
            <ImageEvent
-            date="29th Oct, 2020"
+            date="4th, Jan 2025"
             className="text-center"
-            text="Blood Donate App"
-            src={BloodDonateApp}
-            alt="Blood Donate App"
+            text="Portfolio Website"
+            src={Portfolio}
+            alt="Portfolio Website"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
               <div>
@@ -80,13 +80,11 @@ const ProjectTimeline = () => {
 
                     <Accordion.Collapse eventKey="0" className="text-left">
                       <Card.Body>
-                        <strong>Description:</strong> This is a Blood donating app in which any person can find a donor easily and can chat with them.
+                        <strong>Description:</strong> This is a Portfolio site that displays some of ther coding skills I currently have.
                         <hr />
                         <strong>Features:</strong>
                         <ul className="list-styles pt-1">
                           <li>Provide user friendy Enviroment.</li>
-                          <li>user can find donors under nearest 10km from their current location. </li>
-                          <li>User can chat with donor.</li>
                           <li>Powered by ReactNative, Js and Css</li>
                         </ul>
                         <hr />
@@ -133,13 +131,13 @@ const ProjectTimeline = () => {
               </div>
               <div className="d-flex justify-content-between flex-nowrap text-center">
                 <UrlButton
-                  href="https://drive.google.com/file/d/1d9ExPiYdpLk75tl42dRqJ8WfHAxmV-ZK/view?usp=sharing"
+                  href="https://drive.google.com/drive/folders/1lS9CM7wcW6xxa0aiLSmUvuA_cdwj2njf"
                   target="_blank"
                 >
                   SEE LIVE
                 </UrlButton>
                 <UrlButton
-                  href="https://github.com/AdibaAbid/Blood-Donate-App/tree/master"
+                  href="https://github.com/KHamwey/React-Portfolio"
                   target="_blank"
                 >
                   SOURCE CODE
@@ -148,12 +146,12 @@ const ProjectTimeline = () => {
             </div>
           </ImageEvent>
           
-        {/* //React FB Component */}
+          {/* //React FB Component */}
           <ImageEvent
             date="10th Sep, 2020"
             className="text-center"
             text="FB Component"
-            src={FbComponent}
+           src={FbComponent}
             alt="FB Component"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
