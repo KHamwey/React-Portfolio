@@ -80,7 +80,7 @@ const ProjectTimeline = () => {
 
                    <Accordion.Collapse eventKey="0" className="text-left">
                      <Card.Body>
-                       <strong>Description:</strong> This is a Portfolio site that displays some of ther coding skills I currently have.
+                       <strong>Description:</strong> This is a Portfolio site that displays some of the coding skills I currently have.
                        <hr />
                        <strong>Features:</strong>
                        <ul className="list-styles pt-1">
