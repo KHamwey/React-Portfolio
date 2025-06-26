@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <h1 className="pt-3 text-center font-details pb-2" style={{ color: 'white' }}>ABOUT ME</h1>
+        <h1 className="pt-3 text-center font-details pb-2" style={{ color: 'grey' }}>ABOUT ME</h1>
         <Container>
           <Row className=" pb-5 align-items-center">
             <Col xs={12} md={6}>
@@ -23,7 +23,7 @@ const About = () => {
               <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
                 <br />An Engineer with extensive expertise with JavaScript, React.js, HTML, CSS, and AWS Infra. I am currently learning React Native for Mobile Applications, AWS Infra for the Gold Jacket, twilio for IVR, and AWS LEX for ChatBoting.
                 <br /><br/>
-                I am passionate programmer and a learner, born and brought up in Florida.
+                I am passionate programmer and a forever learner, born and raised in Florida.
                 <br />
 
                 <Col className="d-flex justify-content-center flex-wrap">
