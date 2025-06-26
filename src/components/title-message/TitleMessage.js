@@ -16,13 +16,18 @@ const MyTitleMessage = styled.h1`
     color: ${props => props.theme.titleColor};
     text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
     font-weight: 100;
+
     .main {
       font-size: 50px;
+      color: #FFFFFF; /* Color for "Hi, my name is" and "Kyle Hamwey" */
     }
     .sub {
       font-size: 27px;
       letter-spacing: 2px;
     }
+      span {
+      color: #FFFFFF;
+      }
   }
 `;
 
