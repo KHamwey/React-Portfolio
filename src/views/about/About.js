@@ -21,9 +21,9 @@ const About = () => {
             </Col>
             <Col xs={12} md={6}>
               <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
-                <br />An Engineer with extensive expertise with JavaScript, React.js, HTML, CSS, and AWS Infra. I am currently learning React Native for Mobile Applications, AWS Infra for the Gold Jacket, twilio for IVR, and AWS LEX for ChatBoting.
-                <br /><br/>
-                I am passionate programmer and a forever learner, born and raised in Florida.
+                <br />I am an engineer with extensive expertise in JavaScript, React.js, HTML, CSS, and AWS infrastructure. Currently, I am expanding my skill set by learning React Native for mobile application development, deepening my knowledge of AWS infrastructure, and exploring technologies such as Twilio for IVR solutions and AWS Lex for chatbot integration.
+                <br /><br />
+                I am a passionate programmer and a lifelong learner, dedicated to continuous growth and innovation. Originally from Florida, I thrive on tackling new challenges and delivering impactful
                 <br />
 
                 <Col className="d-flex justify-content-center flex-wrap">
