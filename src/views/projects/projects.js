@@ -22,7 +22,7 @@ import MusicList from "../../assets/img/projects/Music-List-App.png";
 import QuizApp from "../../assets/img/projects/QuizzApp-JavaScript.png";
 import EmpolyeeTable from "../../assets/img/projects/Empolyee-table.png";
 import Portfolio from "../../assets/img/projects/portfolio.png";
-import FbComponent from "../../assets/img/projects/Fb-component.png";
+import WordPressSite from "../../assets/img/projects/Wordpress-site.png";
 
 //Skills
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
@@ -33,6 +33,7 @@ import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_FIREBASE from "../../assets/img/skills/firebase-icon.svg";
+import L_WORDPRESS from "../../assets/img/skills/wordpress-icon.svg";
 
 // Custom timline theme
 const customTheme = createTheme(themes.default, {
@@ -150,11 +151,11 @@ const ProjectTimeline = () => {
 
 
          <ImageEvent
-           date="10th Sep, 2020"
+           date="10th Feb, 2025"
            className="text-center"
-           text="FB Component"
-          src={FbComponent}
-           alt="FB Component"
+           text="WordPress Site"
+          src={WordPressSite}
+           alt="WordPress Site"
          >
            <div className="d-flex justify-content-between flex-column mt-1">
              <div>
@@ -177,6 +178,9 @@ const ProjectTimeline = () => {
                        <ul className="list-styles pt-1">
                          <li>Beginner Level Wordpress Project</li>
                          <li>Powered by Wordpress</li>
+                         <li>Provide best quality, low tech, service for a low price rate.</li>
+                         <li>Provide best quality, refurbished products, for a low price rate.</li>
+                         <li>Responsive Web Design</li>
                        </ul>
                        <hr />
                        <strong>Tech used:</strong>
@@ -184,8 +188,8 @@ const ProjectTimeline = () => {
                          <li>
                            <span className="p-2">
                              <Image
-                               src={L_HTML5}
-                               alt="React"
+                               src={L_WORDPRESS}
+                               alt="WordPress"
                                rounded
                                className="image-style m-1"
                              ></Image>{" "}
@@ -196,7 +200,7 @@ const ProjectTimeline = () => {
                            <span className="p-2">
                              <Image
                                src={L_HTML5}
-                               alt="CSS 3"
+                               alt="HTML5"
                                rounded
                                className="image-style m-1"
                              ></Image>{" "}
@@ -207,7 +211,7 @@ const ProjectTimeline = () => {
                            <span className="p-2">
                              <Image
                                src={L_CSS3}
-                               alt="JavaScript"
+                               alt="CSS3"
                                rounded
                                className="image-style1 m-1"
                              ></Image>{" "}
@@ -233,7 +237,7 @@ const ProjectTimeline = () => {
 
 
          {/* //React Empolyee Table */}
-         {/* 
+         
          <ImageEvent
            date="29th Sep, 2020"
            className="text-center"
@@ -256,13 +260,13 @@ const ProjectTimeline = () => {
 
                    <Accordion.Collapse eventKey="0" className="text-left">
                      <Card.Body>
-                       <strong>Description:</strong> This is an Empolyee table in react, which records empolye info like an empolyee portal.
+                       <strong>Description:</strong> This is a landing page for my portfolio site & up & coming hardware and service business.
                        <hr />
                        <strong>Features:</strong>
                        <ul className="list-styles pt-1">
-                         <li>Provide best quality of food in low price rate.</li>
-                         <li>Powered by React, Js and Css</li>
-                         <li>Respoisive Design</li>
+                         <li>This is to showcase my skills and projects.</li>
+                         <li>A brief professional Bio.</li>
+                         <li>Responsive Web Design using vanilla HTML5 & CSS</li>
                        </ul>
                        <hr />
                        <strong>Tech used:</strong>
@@ -270,12 +274,12 @@ const ProjectTimeline = () => {
                          <li>
                            <span className="p-2">
                              <Image
-                               src={L_REACT}
-                               alt="React"
+                               src={L_HTML5}
+                               alt="HTML5"
                                rounded
                                className="image-style m-1"
                              ></Image>{" "}
-                             React
+                             HTML5
                            </span>
                          </li>
                          <li>
@@ -289,17 +293,6 @@ const ProjectTimeline = () => {
                              CSS3
                            </span>
                          </li>
-                         <li>
-                           <span className="p-2">
-                             <Image
-                               src={L_JAVASCRIPT}
-                               alt="JavaScript"
-                               rounded
-                               className="image-style1 m-1"
-                             ></Image>{" "}
-                             JavaScript
-                           </span>
-                         </li>
                        </ul>
                      </Card.Body>
                    </Accordion.Collapse>
@@ -308,13 +301,13 @@ const ProjectTimeline = () => {
              </div>
              <div className="d-flex justify-content-between flex-nowrap text-center">
                <UrlButton
-                 href="https://drive.google.com/file/d/19tfnchNu8BLQs8f490QVHpaEkqYvn5AQ/view?usp=sharing"
+                 href="https://khamwey.github.io/"
                  target="_blank"
                >
                  SEE LIVE
                </UrlButton>
                <UrlButton
-                 href="https://github.com/AdibaAbid/React-Portfolio"
+                 href="https://github.com/KHamwey/KHamwey.github.io"
                  target="_blank"
                >
                  SOURCE CODE
@@ -322,7 +315,7 @@ const ProjectTimeline = () => {
              </div>
            </div>
          </ImageEvent>
-*/}
+
 
          {/* //ChatKharaMeal */}
 {/* 
