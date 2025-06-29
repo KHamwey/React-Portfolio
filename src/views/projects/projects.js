@@ -146,8 +146,8 @@ const ProjectTimeline = () => {
            </div>
          </ImageEvent>
 
-	 {/* //React FB Component */}
-{/*
+	 {/* //WordPress Site */}
+
 
          <ImageEvent
            date="10th Sep, 2020"
@@ -171,12 +171,12 @@ const ProjectTimeline = () => {
 
                    <Accordion.Collapse eventKey="0" className="text-left">
                      <Card.Body>
-                       <strong>Description:</strong> This is a React based Fb component app in which i used two different libraries.
+                       <strong>Description:</strong> This is a WordPress based application geared towards creating dynamic and responsive web pages, but also for ease of use regarding Authentication. It also has a Nice Ebay Plug-In for Inventory Management.
                        <hr />
                        <strong>Features:</strong>
                        <ul className="list-styles pt-1">
-                         <li>Beginner Level React Project</li>
-                         <li>Powered by React, JS ans CSS </li>
+                         <li>Beginner Level Wordpress Project</li>
+                         <li>Powered by Wordpress</li>
                        </ul>
                        <hr />
                        <strong>Tech used:</strong>
@@ -184,34 +184,34 @@ const ProjectTimeline = () => {
                          <li>
                            <span className="p-2">
                              <Image
-                               src={L_REACT}
+                               src={L_HTML5}
                                alt="React"
                                rounded
                                className="image-style m-1"
                              ></Image>{" "}
-                             React Native
+                             WordPress
+                           </span>
+                         </li>
+                         <li>
+                           <span className="p-2">
+                             <Image
+                               src={L_HTML5}
+                               alt="CSS 3"
+                               rounded
+                               className="image-style m-1"
+                             ></Image>{" "}
+                             HTML5
                            </span>
                          </li>
                          <li>
                            <span className="p-2">
                              <Image
                                src={L_CSS3}
-                               alt="CSS 3"
-                               rounded
-                               className="image-style m-1"
-                             ></Image>{" "}
-                             CSS3
-                           </span>
-                         </li>
-                         <li>
-                           <span className="p-2">
-                             <Image
-                               src={L_JAVASCRIPT}
                                alt="JavaScript"
                                rounded
                                className="image-style1 m-1"
                              ></Image>{" "}
-                             JavaScript
+                             CSS3
                            </span>
                          </li>
                        </ul>
@@ -222,21 +222,15 @@ const ProjectTimeline = () => {
              </div>
              <div className="d-flex justify-content-between flex-nowrap text-center">
                <UrlButton
-                 href="https://drive.google.com/file/d/1hOq9argdLzZtTWYZDEnqZLzDlp_P3utN/view?usp=sharing"
+                 href="https://ktrlcomputers.com/"
                  target="_blank"
                >
                  SEE LIVE
                </UrlButton>
-               <UrlButton
-                 href="https://github.com/AdibaAbid/React-FB-Component"
-                 target="_blank"
-               >
-                 SOURCE CODE
-               </UrlButton>
              </div>
            </div>
          </ImageEvent>
-*/}
+
 
          {/* //React Empolyee Table */}
          {/* 
