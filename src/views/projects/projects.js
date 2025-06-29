@@ -23,6 +23,7 @@ import QuizApp from "../../assets/img/projects/QuizzApp-JavaScript.png";
 import EmpolyeeTable from "../../assets/img/projects/Empolyee-table.png";
 import Portfolio from "../../assets/img/projects/portfolio.png";
 import WordPressSite from "../../assets/img/projects/Wordpress-site.png";
+import LandingPage from "../../assets/img/projects/Landing-Page.png";
 
 //Skills
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
@@ -179,7 +180,7 @@ const ProjectTimeline = () => {
                          <li>Beginner Level Wordpress Project</li>
                          <li>Powered by Wordpress</li>
                          <li>Provide best quality, low tech, service for a low price rate.</li>
-                         <li>Provide best quality, refurbished products, for a low price rate.</li>
+                         <li>Provide quality, refurbished products, for a low price rate.</li>
                          <li>Responsive Web Design</li>
                        </ul>
                        <hr />
@@ -239,11 +240,11 @@ const ProjectTimeline = () => {
          {/* //React Empolyee Table */}
          
          <ImageEvent
-           date="29th Sep, 2020"
+           date="29th Mar, 2025"
            className="text-center"
-           text="Empolyee Table"
-           src={EmpolyeeTable}
-           alt="Empolyee Table"
+           text="Landing Page"
+           src={LandingPage}
+           alt="Landing Page"
          >
            <div className="d-flex justify-content-between flex-column mt-1">
              <div>
@@ -260,7 +261,7 @@ const ProjectTimeline = () => {
 
                    <Accordion.Collapse eventKey="0" className="text-left">
                      <Card.Body>
-                       <strong>Description:</strong> This is a landing page for my portfolio site & up & coming hardware and service business.
+                       <strong>Description:</strong> This is a landing page for my portfolio site and up & coming hardware and service business.
                        <hr />
                        <strong>Features:</strong>
                        <ul className="list-styles pt-1">
