@@ -15,7 +15,7 @@ const BlogSection = () => {
                         <Card className="card-resize">
                             <Card.Img className="image-resize" variant="top" src="https://miro.medium.com/max/1000/0*DPnItWaXWVDA8qGJ" alt="Blog 1" />
                             <Card.Body>
-                                <a className="text-dark text-decoration-none" href="https://medium.com/@hamweykyle/launching-a-portfolio-site-using-aws-amplify-f4059f8ac7db" target="_blank">
+                                <a className="text-dark text-decoration-none" href="https://medium.com/@hamweykyle/launching-a-portfolio-site-using-aws-amplify-f4059f8ac7db" target="_blank" rel="noopener noreferrer">
                                     <Card.Title >Hosting a React App via AWS Amplify</Card.Title>
                                     <Card.Text>
                                         January 4th, 2025
@@ -28,7 +28,7 @@ const BlogSection = () => {
                         <Card className="card-resize">
                             <Card.Img className="image-resize" variant="top" src="https://miro.medium.com/max/700/0*g61HreCnSrR1JDUf" alt="Blog 2" />
                             <Card.Body>
-                                <a className="text-dark text-decoration-none" href="xxxxx" target="_blank">
+                                <a className="text-dark text-decoration-none" href="https://medium.com/@hamweykyle" target="_blank" rel="noopener noreferrer">
                                     <Card.Title >Building a ChatBot using AWS LEX</Card.Title>
                                     <Card.Text>
                                     Coming Soon

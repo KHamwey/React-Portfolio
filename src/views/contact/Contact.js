@@ -38,7 +38,7 @@ const Contact = () => {
             <div className="m-2">
               <a href="https://medium.com/@hamweykyle" target="_blank" rel="noopener noreferrer">
                 <Button id="medium-btn" variant="outline-info" title="Lets write together!">
-                <i class="fab fa-youtube"></i> Medium
+                <i className="fab fa-youtube"></i> Medium
                 </Button>
               </a>
             </div>
