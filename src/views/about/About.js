@@ -29,7 +29,7 @@ const About = () => {
             <Col xs={12} md={7} lg={8}>
               <div className="my-details rounded p-3 text-start w-100">
                 <p className="about-lead mb-2">
-                  I&apos;m an engineer with strengths in Python, TypeScript, Go, JavaScript, React, HTML, and CSS—plus hands-on{" "}
+                  I&apos;m an engineer with strengths in Python, TypeScript, Go, JavaScript, React, HTML, and CSS -- plus hands-on{" "}
                   <strong>AWS</strong> work across networking, security patterns, and reliable deployments.
                 </p>
                 <p className="mb-5">
