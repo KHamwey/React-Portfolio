@@ -1,15 +1,18 @@
-
 import React from "react";
 import Button from "react-bootstrap/Button";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "./contact.css";
+import contactHeroBg from "../../assets/img/background/background.webp";
 
 const Contact = () => {
   return (
     <div id="contact">
       <h1 className="pt-3 text-center font-details-b pb-3">CONTACT ME</h1>
-      <div className="contact-jumbotron p-5 rounded">
+      <div
+        className="contact-jumbotron p-5 rounded"
+        style={{ backgroundImage: `url(${contactHeroBg})` }}
+      >
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
             <div className="m-2">

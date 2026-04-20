@@ -28,7 +28,7 @@ function App() {
         >
           <div>
             <Container className="container-box">
-              <Fade direction="left" duration={2000}>
+              <Fade direction="left" duration={2000} triggerOnce>
                 <About />
               </Fade>
             </Container>
@@ -38,7 +38,7 @@ function App() {
       <div>
         <div>
           <Container className="container-box">
-            <Fade direction="right" duration={2000}>
+            <Fade direction="right" duration={2000} triggerOnce>
               <Skills />
             </Fade>
           </Container>
@@ -46,8 +46,8 @@ function App() {
 
         <div>
           <Container className="container-box">
-            <Slide direction="up" duration={1000}>
-              <hr />
+            <hr />
+            <Slide direction="up" duration={1000} triggerOnce>
               <Projects />
             </Slide>
           </Container>
@@ -55,8 +55,8 @@ function App() {
 
         <div>
           <Container className="container-box">
-            <Slide direction="left" duration={2000}>
-              <hr />
+            <hr />
+            <Slide direction="left" duration={2000} triggerOnce>
               <Blog />
             </Slide>
           </Container>
@@ -65,8 +65,8 @@ function App() {
 
       <div>
         <Container className="container-box">
-          <Fade direction="up" duration={2000}>
-            <hr />
+          <hr />
+          <Fade direction="up" duration={2000} triggerOnce>
             <Contact />
           </Fade>
         </Container>
