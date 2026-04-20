@@ -3,9 +3,16 @@
       height: 160px;
       width: 100%;
   }
+  .blog-cards-row {
+    max-width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .card-resize{
       height: 340px;
       width: 240px;
+      max-width: 100%;
   }
  
   @media only screen and (max-width: 786px){

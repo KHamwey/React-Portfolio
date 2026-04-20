@@ -7,63 +7,80 @@ import Profile from "../../assets/img/profile/profile.svg";
 import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
+const RESUME_URL =
+  "https://drive.google.com/file/d/1J9tbuG_LZpYq9Im7tJ4PlHMjfhbTLoMd/view";
+const AWS_EXAMPLES_URL =
+  "https://docs.google.com/document/d/1E3dpcOhSFnz5-Wo1XbJMNZTC7u1ZzwcB6AedjvvaxkY/edit?usp=sharing";
+
 const About = () => {
   return (
     <div id="about">
       <div className="about">
-        <h1 className="pt-3 text-center font-details pb-2" style={{ color: 'grey' }}>ABOUT ME</h1>
+        <h1 className="pt-3 text-center font-details pb-2 about-section-title">
+          ABOUT ME
+        </h1>
         <Container>
-          <Row className=" pb-5 align-items-center">
-            <Col xs={12} md={6}>
-              <Row className="justify-content-center mb-2 mr-2 ">
-                <Image className="profile justify-content-end" alt="profile" src={Profile} />
-              </Row>
+          <Row className="pb-5 align-items-center justify-content-center">
+            <Col xs={12} md={5} lg={4}>
+              <div className="d-flex justify-content-center mb-2">
+                <Image className="profile" alt="Kyle Hamwey profile" src={Profile} />
+              </div>
             </Col>
-            <Col xs={12} md={6}>
-              <Row className=" align-items-start p-2 my-details rounded tex align-text-left " >
-                <br />I am an engineer with expertise in Python, Svelte, TypeScript, GO, JavaScript, React.js, HTML, CSS, and AWS infrastructure. Currently, I am expanding my skill set by learning React Native for mobile application development, deepening my knowledge of AWS infrastructure, and exploring technologies such as Twilio for IVR solutions and AWS Lex for chatbot integration.
-                <br /><br />
-                I am a passionate Programmer & Solutions Engineer and a lifelong learner, dedicated to continuous growth and innovation. Originally from Florida, I thrive on tackling new challenges and delivering impactful solutions for clients and users alike.
-                <br />
+            <Col xs={12} md={7} lg={8}>
+              <div className="my-details rounded p-3 text-start w-100">
+                <p className="about-lead mb-2">
+                  I&apos;m an engineer with strengths in Python, TypeScript, Go, JavaScript, React, HTML, and CSS—plus hands-on{" "}
+                  <strong>AWS</strong> work across networking, security patterns, and reliable deployments.
+                </p>
+                <p className="mb-5">
+                  I enjoy turning messy requirements into clear, maintainable systems. Originally from Florida, I focus on practical delivery for users and teams.
+                </p>
 
-                <Col className="d-flex justify-content-center flex-wrap">
-                  <div>
+                <Row className="g-2 justify-content-center mt-3 w-100">
+                  <Col xs="auto">
                     <a href="#contact">
-                      <Button className="m-2" variant="outline-primary">
-                        Let's talk
+                      <Button className="m-1" size="sm" variant="outline-primary">
+                        Let&apos;s talk
                       </Button>
                     </a>
-                  </div>
-                  <div>
-                    <a href="https://drive.google.com/file/d/1_vbjIRU-YOkuSZNItcfMCPxD1549aLmj/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-success">
-                        My Resume
+                  </Col>
+                  <Col xs="auto">
+                    <a href={RESUME_URL} target="_blank" rel="noopener noreferrer">
+                      <Button className="m-1" size="sm" variant="outline-success">
+                        Resume
                       </Button>
                     </a>
-                  </div>
-                  <div>
+                  </Col>
+                  <Col xs="auto">
+                    <a href={AWS_EXAMPLES_URL} target="_blank" rel="noopener noreferrer">
+                      <Button className="m-1" size="sm" variant="outline-warning">
+                        AWS examples
+                      </Button>
+                    </a>
+                  </Col>
+                  <Col xs="auto">
                     <a href="https://medium.com/@hamweykyle" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-secondary">
+                      <Button className="m-1" size="sm" variant="outline-secondary">
                         Medium
                       </Button>
                     </a>
-                  </div>
-                  <div>
+                  </Col>
+                  <Col xs="auto">
                     <a href="https://github.com/KHamwey" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-dark">
+                      <Button className="m-1" size="sm" variant="outline-dark">
                         GitHub
                       </Button>
                     </a>
-                  </div>
-                  <div>
+                  </Col>
+                  <Col xs="auto">
                     <a href="https://www.linkedin.com/in/kyle-h-b856b925/" target="_blank" rel="noopener noreferrer">
-                      <Button className="m-2" variant="outline-info">
+                      <Button className="m-1" size="sm" variant="outline-info">
                         LinkedIn
                       </Button>
                     </a>
-                  </div>
-                </Col>
-              </Row>
+                  </Col>
+                </Row>
+              </div>
             </Col>
           </Row>
         </Container>

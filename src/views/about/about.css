@@ -2,6 +2,11 @@
     background-color: transparent;
     font-size: 1.1em;
   }
+
+  /* Same as page base (--color-bg-deep); beats .font-details from skills.css */
+  #about .about-section-title {
+    color: var(--color-bg-deep, #282c34);
+  }
   
   .profile {
     max-width: 25em;
@@ -10,7 +15,13 @@
   
   .my-details {
     background-color: rgba(255, 255, 255, 0.747);
-    margin-right:-100px;
+    margin-right: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .about-lead {
+    line-height: 1.55;
   }
   @media only screen and (max-width: 786px){
   .font-details{

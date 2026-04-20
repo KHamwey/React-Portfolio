@@ -14,6 +14,7 @@ import L_POSTGRES from "../../assets/img/skills/postgresql.svg"
 import L_MYSQL from "../../assets/img/skills/mssql.svg"
 import L_VERCEL from "../../assets/img/skills/logo-vercel.svg"
 import L_TAILWIND from "../../assets/img/skills/tailwindcss-icon.svg"
+import L_AWS from "../../assets/img/skills/aws.svg"
 
 
 
@@ -86,7 +87,12 @@ export const skills = {
     ],
 
     hostingPlatforms: [
-   
+      {
+        link: "https://aws.amazon.com/",
+        imgAltText: "Amazon Web Services",
+        imgSrc: L_AWS,
+        skillName: "AWS",
+      },
       {
         link: "https://www.netlify.com/",
         imgAltText: "Netlify",

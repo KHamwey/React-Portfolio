@@ -1,3 +1,43 @@
+.skills-section .skills-grid {
+  max-width: 1100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skills-card {
+  max-width: 340px;
+}
+
+.skills-card-title {
+  font-size: 1.05rem !important;
+  font-weight: 600 !important;
+  line-height: 1.25;
+}
+
+.skills-card-hr {
+  margin: 0.25rem 0 0.5rem;
+  width: 70%;
+  margin-right: auto;
+  opacity: 0.5;
+}
+
+.skills-card-list {
+  width: 100%;
+}
+
+.skills-card-list .skills-card-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0.4rem;
+  width: 100%;
+  text-align: left;
+}
+
+.skills-card-list .skills-card-link .image-style {
+  flex-shrink: 0;
+}
+
 .focus {
     transition: transform 0.3s;
   }
@@ -6,10 +46,6 @@
     transform: scale(1.05);
   }
   
-  .card-title {
-    font-size: 2em;
-    font-weight: 700;
-  }
   .card-deck{
     display: flex;
     justify-content: center;

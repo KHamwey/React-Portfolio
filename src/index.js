@@ -1,16 +1,15 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import App from './App';
-import { ThemeProvider } from 'styled-components'
-import { theme } from './components/theme/theme'
+import { ThemeProvider } from 'styled-components';
+import { theme } from './components/theme/theme';
 
-
-ReactDOM.render(
-<ThemeProvider theme={theme}>
-<App />
-</ThemeProvider>,
-  document.getElementById('root')
+const container = document.getElementById('root');
+const root = createRoot(container);
+root.render(
+  <ThemeProvider theme={theme}>
+    <App />
+  </ThemeProvider>
 );
-
-

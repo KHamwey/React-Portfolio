@@ -5,8 +5,7 @@ import CustomCarousel from "./components/carousel/Carousal";
 import TitleMessage from "./components/title-message/TitleMessage";
 import About from "./views/about/About";
 import { Parallax } from "react-parallax";
-import Fade from "react-reveal/Fade";
-import Slide from "react-reveal/Slide";
+import { Fade, Slide } from "react-awesome-reveal";
 import Container from "react-bootstrap/Container";
 import Skills from "./views/skills/Skills";
 import Blog from "./views/blog-section/BlogSection";
@@ -28,8 +27,8 @@ function App() {
           strength={-200}
         >
           <div>
-            <Container className="container-box rounded">
-              <Fade left duration={2000}>
+            <Container className="container-box">
+              <Fade direction="left" duration={2000}>
                 <About />
               </Fade>
             </Container>
@@ -38,16 +37,16 @@ function App() {
       </div>
       <div>
         <div>
-          <Container className="container-box rounded">
-            <Fade right duration={2000}>
+          <Container className="container-box">
+            <Fade direction="right" duration={2000}>
               <Skills />
             </Fade>
           </Container>
         </div>
 
         <div>
-          <Container className="container-box rounded">
-            <Slide bottom duration={1000}>
+          <Container className="container-box">
+            <Slide direction="up" duration={1000}>
               <hr />
               <Projects />
             </Slide>
@@ -55,8 +54,8 @@ function App() {
         </div>
 
         <div>
-          <Container className="container-box rounded">
-            <Slide left duration={2000}>
+          <Container className="container-box">
+            <Slide direction="left" duration={2000}>
               <hr />
               <Blog />
             </Slide>
@@ -65,8 +64,8 @@ function App() {
       </div>
 
       <div>
-        <Container className="container-box rounded">
-          <Fade bottom duration={2000}>
+        <Container className="container-box">
+          <Fade direction="up" duration={2000}>
             <hr />
             <Contact />
           </Fade>
