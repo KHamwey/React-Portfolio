@@ -11,7 +11,13 @@ const Contact = () => {
       <h1 className="pt-3 text-center font-details-b pb-3">CONTACT ME</h1>
       <div
         className="contact-jumbotron p-5 rounded"
-        style={{ backgroundImage: `url(${contactHeroBg})` }}
+        style={{
+          backgroundColor: "#ffffff",
+          backgroundImage: `url(${contactHeroBg})`,
+          backgroundSize: "cover",
+          backgroundRepeat: "no-repeat",
+          backgroundPosition: "center",
+        }}
       >
         <Row>
           <Col className="d-flex justify-content-center flex-wrap">
