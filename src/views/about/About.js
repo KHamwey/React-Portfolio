@@ -11,6 +11,7 @@ const RESUME_URL =
   "https://drive.google.com/file/d/1J9tbuG_LZpYq9Im7tJ4PlHMjfhbTLoMd/view";
 const AWS_EXAMPLES_URL =
   "https://docs.google.com/document/d/1E3dpcOhSFnz5-Wo1XbJMNZTC7u1ZzwcB6AedjvvaxkY/edit?usp=sharing";
+const AI_ASSISTANT_CALL_NUMBER = "+18774246658";
 
 const About = () => {
   return (
@@ -20,7 +21,7 @@ const About = () => {
           ABOUT ME
         </h1>
         <Container>
-          <Row className="pb-5 align-items-center justify-content-center">
+          <Row className="pb-100px align-items-center justify-content-center">
             <Col xs={12} md={5} lg={4}>
               <div className="d-flex justify-content-center mb-2">
                 <Image className="profile" alt="Kyle Hamwey profile" src={Profile} />
@@ -38,9 +39,9 @@ const About = () => {
 
                 <Row className="g-2 justify-content-center mt-3 w-100">
                   <Col xs="auto">
-                    <a href="#contact">
-                      <Button className="m-1" size="sm" variant="outline-primary">
-                        Let&apos;s talk
+                    <a href={`tel:${AI_ASSISTANT_CALL_NUMBER}`}>
+                      <Button className="m-1" size="sm" variant="primary">
+                        AI assistant: (877) 424-6658
                       </Button>
                     </a>
                   </Col>

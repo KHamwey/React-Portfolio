@@ -16,6 +16,14 @@
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
+.navbar-dark .navbar-nav .call-nav-link {
+  color: #9dc5ff;
+}
+
+.navbar-dark .navbar-nav .call-nav-link:hover {
+  color: #ffffff;
+}
 .animate-navbar {
   box-shadow: 1px 1px 1px #222;
   animation: moveDown 0.5s ease-in-out;
