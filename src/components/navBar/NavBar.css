@@ -37,6 +37,10 @@
     margin-bottom:-32px;
     margin-left: 22px;
   }
+  .navbar-dark .navbar-nav .call-nav-link {
+    margin-top: 0.9rem;
+    padding-top: 0.5rem;
+  }
 }
 
 @keyframes moveDown {
