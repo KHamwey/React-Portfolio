@@ -5,6 +5,8 @@ import Row from "react-bootstrap/Row";
 import "./contact.css";
 import contactHeroBg from "../../assets/img/background/background.webp";
 
+const AI_ASSISTANT_CALL_NUMBER = "+18774246658";
+
 const Contact = () => {
   return (
     <div id="contact">
@@ -47,6 +49,13 @@ const Contact = () => {
               <a href="https://medium.com/@hamweykyle" target="_blank" rel="noopener noreferrer">
                 <Button id="medium-btn" variant="outline-info" title="Lets write together!">
                 <i className="fab fa-medium"></i> Medium
+                </Button>
+              </a>
+            </div>
+            <div className="m-2">
+              <a href={`tel:${AI_ASSISTANT_CALL_NUMBER}`}>
+                <Button variant="primary" title="Call my AI assistant">
+                  Call my AI assistant: (877) 424-6658
                 </Button>
               </a>
             </div>

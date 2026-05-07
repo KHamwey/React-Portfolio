@@ -5,3 +5,16 @@
     border: 2px solid #101018f8;
     border-top-left-radius: 3px;
   }
+
+.footer-badge-link {
+    display: inline-block;
+    margin-top: 0.4rem;
+    color: #9dc5ff;
+    font-size: 0.65em;
+    text-decoration: none;
+  }
+
+.footer-badge-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+  }
