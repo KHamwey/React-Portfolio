@@ -17,7 +17,7 @@ const Footer = () => {
           target="_blank"
           rel="noreferrer"
         >
-          Built with Amazon Connect, Lex V2, and Terraform
+          Call and Chat features powered by Amazon Connect, Lex V2, and Terraform
         </a>
       </div>
     </div>

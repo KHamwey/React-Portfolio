@@ -3,9 +3,8 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Stack & deploy
 
 - **React 18**, **react-scripts 5**, **react-bootstrap 2** + **Bootstrap 5** (CSS from `bootstrap` in `src/index.js`).
-- **AWS Amplify:** build spec is [`amplify.yml`](amplify.yml) — Node **20**, `npm ci`, `npm run build` (no OpenSSL legacy flag; no `--legacy-peer-deps`).
-- **Environment variables:** see [`.env.example`](.env.example) and [`docs/AMPLIFY_ENV_VARS.md`](docs/AMPLIFY_ENV_VARS.md).
-- **Rollback / baseline tagging:** [`docs/AMPLIFY_BASELINE.md`](docs/AMPLIFY_BASELINE.md).
+- **AWS Amplify:** build spec is [`amplify.yml`](amplify.yml) — Node **20**, `npm ci`, `npm run build`.
+- **Environment variables:** see [`.env.example`](.env.example).
 - **react-parallax** is on **^3.5.2** (declares React 17/18 peers); older `3.0.3` only allowed React 16 and blocked `npm ci` without peer conflicts.
 
 ## Available Scripts

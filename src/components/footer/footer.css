@@ -6,11 +6,21 @@
     border-top-left-radius: 3px;
   }
 
+.footer-badge-stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+    margin-top: 0.35rem;
+  }
+
 .footer-badge-link {
     display: inline-block;
-    margin-top: 0.4rem;
+    max-width: 36rem;
+    padding: 0 0.5rem;
     color: #9dc5ff;
     font-size: 0.65em;
+    line-height: 1.35;
     text-decoration: none;
   }
 
