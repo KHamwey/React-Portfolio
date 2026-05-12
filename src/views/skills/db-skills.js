@@ -8,6 +8,7 @@ import L_MATERIALUI from "../../assets/img/skills/material-ui-1.svg";
 import L_REACT_BOOTSTRAP from "../../assets/img/skills/react-bootstrap.svg";
 import L_GIT from "../../assets/img/skills/git-icon.svg";
 import L_GITHUB_PAGES from "../../assets/img/skills/github.svg";
+import L_GITHUB_API from "../../assets/img/skills/github-api.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_NETLIFY from "../../assets/img/skills/netlify-icon.svg"
 import L_POSTGRES from "../../assets/img/skills/postgresql.svg"
@@ -15,6 +16,13 @@ import L_MYSQL from "../../assets/img/skills/mssql.svg"
 import L_VERCEL from "../../assets/img/skills/logo-vercel.svg"
 import L_TAILWIND from "../../assets/img/skills/tailwindcss-icon.svg"
 import L_AWS from "../../assets/img/skills/aws.svg"
+import L_EXPRESS from "../../assets/img/skills/express.svg"
+import L_NODE from "../../assets/img/skills/nodejs.svg"
+import L_PYTHON from "../../assets/img/skills/python.svg"
+import L_PYTHONANYWHERE from "../../assets/img/skills/pythonanywhere.svg"
+import L_STYLED_COMPONENTS from "../../assets/img/skills/styled-components.svg"
+import L_TYPESCRIPT from "../../assets/img/skills/typescript.svg"
+import L_WORDPRESS from "../../assets/img/skills/wordpress-icon.svg"
 
 
 
@@ -56,6 +64,18 @@ export const skills = {
         imgSrc: L_REDUX,
         skillName: "Redux",
       },
+      {
+        link: "https://www.typescriptlang.org/",
+        imgAltText: "TypeScript",
+        imgSrc: L_TYPESCRIPT,
+        skillName: "TypeScript",
+      },
+      {
+        link: "https://www.python.org/",
+        imgAltText: "Python",
+        imgSrc: L_PYTHON,
+        skillName: "Python",
+      },
       
     ],
     frameworks:[
@@ -83,6 +103,30 @@ export const skills = {
             imgSrc: L_TAILWIND,
             skillName: "Tailwind CSS",
           },
+          {
+            link: "https://expressjs.com/",
+            imgAltText: "Express.js",
+            imgSrc: L_EXPRESS,
+            skillName: "Express.js",
+          },
+          {
+            link: "https://nodejs.org/",
+            imgAltText: "Node.js",
+            imgSrc: L_NODE,
+            skillName: "Node.js",
+          },
+          {
+            link: "https://styled-components.com/",
+            imgAltText: "Styled Components",
+            imgSrc: L_STYLED_COMPONENTS,
+            skillName: "Styled Components",
+          },
+          {
+            link: "https://wordpress.org/",
+            imgAltText: "WordPress",
+            imgSrc: L_WORDPRESS,
+            skillName: "WordPress",
+          },
           
     ],
 
@@ -106,10 +150,22 @@ export const skills = {
         skillName: "GitHub Pages",
       },
       {
+        link: "https://docs.github.com/en/rest",
+        imgAltText: "GitHub REST API",
+        imgSrc: L_GITHUB_API,
+        skillName: "GitHub API",
+      },
+      {
         link: "https://vercel.com/",
         imgAltText: "Vercel",
         imgSrc: L_VERCEL,
         skillName: "Vercel",
+      },
+      {
+        link: "https://www.pythonanywhere.com/",
+        imgAltText: "PythonAnywhere",
+        imgSrc: L_PYTHONANYWHERE,
+        skillName: "PythonAnywhere",
       },
       // {
       //   link: "https://www.heroku.com/",
@@ -138,6 +194,12 @@ export const skills = {
         imgAltText: "GIT",
         imgSrc: L_GIT,
         skillName: "GIT",
+      },
+      {
+        link: "https://github.com/",
+        imgAltText: "GitHub",
+        imgSrc: L_GITHUB_PAGES,
+        skillName: "GitHub",
       },
     ],
   };

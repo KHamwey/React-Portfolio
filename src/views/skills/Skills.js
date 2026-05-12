@@ -17,38 +17,6 @@ const Skills = () => {
                 <Col className="d-flex justify-content-center">
                     <Card className="focus skills-card h-100 w-100">
                         <Card.Body className="py-2 px-3">
-                            <Card.Title as="h2" className="text-center skills-card-title mb-1">Version Control</Card.Title>
-                            <hr className="skills-card-hr" />
-                            <Card.Text className="card-text skills-card-list d-flex flex-column align-items-start text-start">
-                                <a className="text-dark text-decoration-none skills-card-link" href={skills.versionControl[0].link} target="_blank" rel="noopener noreferrer">
-                                    <Image src={skills.versionControl[0].imgSrc} alt={skills.versionControl[0].imgAltText} rounded className="image-style m-1"></Image> {skills.versionControl[0].skillName}
-                                </a>
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-
-                <Col className="d-flex justify-content-center">
-                    <Card className="focus skills-card h-100 w-100">
-                        <Card.Body className="py-2 px-3">
-                            <Card.Title as="h2" className="text-center skills-card-title mb-1">Database</Card.Title>
-                            <hr className="skills-card-hr" />
-                            <Card.Text className="card-text skills-card-list d-flex flex-column align-items-start text-start">
-                                {skills.databases.map((skill, index) => (
-                                    <span key={index}>
-                                        <a className="text-dark text-decoration-none skills-card-link" href={skill.link} target="_blank" rel="noopener noreferrer">
-                                            <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
-                                        </a>
-                                    </span>
-                                ))}
-                            </Card.Text>
-                        </Card.Body>
-                    </Card>
-                </Col>
-
-                <Col className="d-flex justify-content-center">
-                    <Card className="focus skills-card h-100 w-100">
-                        <Card.Body className="py-2 px-3">
                             <Card.Title as="h2" className="text-center skills-card-title mb-1">Frameworks</Card.Title>
                             <hr className="skills-card-hr" />
                             <Card.Text className="card-text skills-card-list d-flex flex-column align-items-start text-start">
@@ -89,6 +57,42 @@ const Skills = () => {
                             <hr className="skills-card-hr" />
                             <Card.Text className="card-text skills-card-list d-flex flex-column align-items-start text-start">
                                 {skills.frontend.map((skill, index) => (
+                                    <span key={index}>
+                                        <a className="text-dark text-decoration-none skills-card-link" href={skill.link} target="_blank" rel="noopener noreferrer">
+                                            <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                                        </a>
+                                    </span>
+                                ))}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+
+                <Col className="d-flex justify-content-center">
+                    <Card className="focus skills-card h-100 w-100">
+                        <Card.Body className="py-2 px-3">
+                            <Card.Title as="h2" className="text-center skills-card-title mb-1">Version Control</Card.Title>
+                            <hr className="skills-card-hr" />
+                            <Card.Text className="card-text skills-card-list d-flex flex-column align-items-start text-start">
+                                {skills.versionControl.map((skill, index) => (
+                                    <span key={index}>
+                                        <a className="text-dark text-decoration-none skills-card-link" href={skill.link} target="_blank" rel="noopener noreferrer">
+                                            <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
+                                        </a>
+                                    </span>
+                                ))}
+                            </Card.Text>
+                        </Card.Body>
+                    </Card>
+                </Col>
+
+                <Col className="d-flex justify-content-center">
+                    <Card className="focus skills-card h-100 w-100">
+                        <Card.Body className="py-2 px-3">
+                            <Card.Title as="h2" className="text-center skills-card-title mb-1">Database</Card.Title>
+                            <hr className="skills-card-hr" />
+                            <Card.Text className="card-text skills-card-list d-flex flex-column align-items-start text-start">
+                                {skills.databases.map((skill, index) => (
                                     <span key={index}>
                                         <a className="text-dark text-decoration-none skills-card-link" href={skill.link} target="_blank" rel="noopener noreferrer">
                                             <Image src={skill.imgSrc} alt={skill.imgAltText} rounded className="image-style m-1"></Image> {skill.skillName}
