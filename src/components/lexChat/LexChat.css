@@ -1,0 +1,158 @@
+/* Floating toggle button (bottom-right) */
+.lex-chat-toggle {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+  color: #fff;
+  font-size: 24px;
+  box-shadow: 0 6px 20px rgba(13, 110, 253, 0.4);
+  cursor: pointer;
+  z-index: 1050;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.lex-chat-toggle:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 24px rgba(13, 110, 253, 0.55);
+}
+
+.lex-chat-toggle.is-open {
+  background: #6c757d;
+  box-shadow: 0 6px 20px rgba(108, 117, 125, 0.4);
+}
+
+/* Chat panel */
+.lex-chat-panel {
+  position: fixed;
+  bottom: 100px;
+  right: 24px;
+  width: 360px;
+  max-width: calc(100vw - 32px);
+  height: 520px;
+  max-height: calc(100vh - 140px);
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 1050;
+  animation: lex-slide-up 0.25s ease-out;
+}
+
+@keyframes lex-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.lex-chat-header {
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #0d6efd 0%, #6610f2 100%);
+  color: #fff;
+}
+
+.lex-chat-header strong {
+  font-size: 16px;
+}
+
+.lex-chat-sub {
+  font-size: 11px;
+  opacity: 0.85;
+  margin-top: 2px;
+}
+
+.lex-chat-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px;
+  background: #f8f9fa;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.lex-msg {
+  display: flex;
+}
+
+.lex-msg-user {
+  justify-content: flex-end;
+}
+
+.lex-msg-bot,
+.lex-msg-error {
+  justify-content: flex-start;
+}
+
+.lex-bubble {
+  max-width: 78%;
+  padding: 9px 13px;
+  border-radius: 14px;
+  font-size: 14px;
+  line-height: 1.35;
+  word-wrap: break-word;
+}
+
+.lex-msg-user .lex-bubble {
+  background: #0d6efd;
+  color: #fff;
+  border-bottom-right-radius: 4px;
+}
+
+.lex-msg-bot .lex-bubble {
+  background: #fff;
+  color: #212529;
+  border: 1px solid #dee2e6;
+  border-bottom-left-radius: 4px;
+}
+
+.lex-msg-error .lex-bubble {
+  background: #fff3cd;
+  color: #664d03;
+  border: 1px solid #ffecb5;
+}
+
+.lex-typing {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.lex-chat-input {
+  display: flex;
+  gap: 8px;
+  padding: 12px;
+  border-top: 1px solid #dee2e6;
+  background: #fff;
+}
+
+.lex-chat-input .form-control {
+  flex: 1;
+}
+
+@media (max-width: 480px) {
+  .lex-chat-panel {
+    right: 16px;
+    left: 16px;
+    width: auto;
+    bottom: 90px;
+  }
+
+  .lex-chat-toggle {
+    bottom: 16px;
+    right: 16px;
+    width: 54px;
+    height: 54px;
+  }
+}

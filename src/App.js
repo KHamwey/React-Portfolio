@@ -12,6 +12,7 @@ import Blog from "./views/blog-section/BlogSection";
 import Projects from "./views/projects/projects";
 import Contact from "./views/contact/Contact";
 import Footer from "./components/footer/Footer";
+import LexChat from "./components/lexChat/LexChat";
 
 function App() {
   return (
@@ -73,6 +74,7 @@ function App() {
       </div>
       <hr />
       <Footer />
+      <LexChat />
     </div>
   );
 }
