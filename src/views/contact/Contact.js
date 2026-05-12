@@ -4,6 +4,7 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "./contact.css";
 import contactHeroBg from "../../assets/img/background/background.webp";
+import { SCHEDULE_APPOINTMENT_URL } from "../../constants/links";
 
 const AI_ASSISTANT_CALL_NUMBER = "+18774246658";
 
@@ -56,6 +57,13 @@ const Contact = () => {
               <a href={`tel:${AI_ASSISTANT_CALL_NUMBER}`}>
                 <Button variant="primary" title="Call my AI assistant">
                   Call my AI assistant: (877) 424-6658
+                </Button>
+              </a>
+            </div>
+            <div className="m-2">
+              <a href={SCHEDULE_APPOINTMENT_URL} target="_blank" rel="noopener noreferrer">
+                <Button variant="outline-danger" title="Schedule a call">
+                  <i className="fas fa-calendar-alt"></i> Schedule a call
                 </Button>
               </a>
             </div>

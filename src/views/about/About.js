@@ -80,6 +80,13 @@ const About = () => {
                       </Button>
                     </a>
                   </Col>
+                  <Col xs="auto">
+                    <a href="https://calendar.google.com/calendar/u/0/appointments/schedules/AcZssZ1eNoHzSiHMNGEnKZjaAI0sjzc_SY-Irieqe8yv8Zru0ps3mxiziBPz_i9a9YVdFn6UE7n43AC2" target="_blank" rel="noopener noreferrer">
+                      <Button className="m-1" size="sm" variant="outline-danger">
+                        <i className="fas fa-calendar-alt"></i> Schedule a call
+                      </Button>
+                    </a>
+                  </Col>
                 </Row>
               </div>
             </Col>

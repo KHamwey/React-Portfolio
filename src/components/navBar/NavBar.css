@@ -24,6 +24,71 @@
 .navbar-dark .navbar-nav .call-nav-link:hover {
   color: #ffffff;
 }
+
+/* Pill CTA — matches contact “Schedule a call” link; stands out from plain nav links */
+.navbar-dark .navbar-nav .nav-link.nav-schedule-cta {
+  align-self: center;
+  margin-left: 0.35rem;
+  margin-right: 0.35rem;
+  padding: 0.4rem 1rem !important;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.03em;
+  color: #fff !important;
+  border: 1px solid rgba(220, 53, 69, 0.9);
+  background: linear-gradient(
+    145deg,
+    rgba(220, 53, 69, 0.35) 0%,
+    rgba(90, 24, 32, 0.55) 100%
+  );
+  box-shadow:
+    0 0 0 1px rgba(220, 53, 69, 0.15),
+    0 4px 14px rgba(0, 0, 0, 0.35);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.25s ease,
+    border-color 0.2s ease,
+    background 0.25s ease;
+  animation: nav-schedule-cta-pulse 3.2s ease-in-out infinite;
+}
+
+.navbar-dark .navbar-nav .nav-link.nav-schedule-cta:hover,
+.navbar-dark .navbar-nav .nav-link.nav-schedule-cta:focus-visible {
+  color: #fff !important;
+  border-color: #ff7b88;
+  background: linear-gradient(
+    145deg,
+    rgba(220, 53, 69, 0.65) 0%,
+    rgba(130, 40, 50, 0.75) 100%
+  );
+  box-shadow:
+    0 0 0 1px rgba(255, 123, 136, 0.35),
+    0 0 22px rgba(220, 53, 69, 0.45),
+    0 6px 18px rgba(0, 0, 0, 0.35);
+  transform: translateY(-2px);
+  animation: none;
+}
+
+.nav-schedule-cta__icon {
+  margin-right: 0.45rem;
+  opacity: 0.95;
+}
+
+@keyframes nav-schedule-cta-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 0 1px rgba(220, 53, 69, 0.2),
+      0 4px 14px rgba(0, 0, 0, 0.35);
+  }
+  50% {
+    box-shadow:
+      0 0 0 1px rgba(220, 53, 69, 0.35),
+      0 0 18px rgba(220, 53, 69, 0.3),
+      0 4px 14px rgba(0, 0, 0, 0.35);
+  }
+}
 .animate-navbar {
   box-shadow: 1px 1px 1px #222;
   animation: moveDown 0.5s ease-in-out;
