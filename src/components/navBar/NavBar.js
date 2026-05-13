@@ -18,7 +18,7 @@ import "./NavBar.css";
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ms-auto">
-                        <Nav.Link className="call-nav-link" href="tel:+18774246658">Call:1(877)424-6658</Nav.Link>
+                        <Nav.Link className="call-nav-link" href="tel:+18774246658">Call: (877)424-6658</Nav.Link>
                         <Nav.Link
                             className="nav-schedule-cta"
                             href={SCHEDULE_APPOINTMENT_URL}
