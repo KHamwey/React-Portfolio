@@ -2,10 +2,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Stack & deploy
 
-- **React 18**, **react-scripts 5**, **react-bootstrap 2** + **Bootstrap 5** (CSS from `bootstrap` in `src/index.js`).
+- **React 19** + **react-dom 19**, **react-scripts 5**, **react-bootstrap 2** + **Bootstrap 5** (CSS from `bootstrap` in `src/index.js`).
+- **Framer Motion 12**, **react-awesome-reveal**, **styled-components 6**, **react-parallax-tilt** (animations and UI polish).
 - **AWS Amplify:** build spec is [`amplify.yml`](amplify.yml) — Node **20**, `npm ci`, `npm run build`.
 - **Environment variables:** see [`.env.example`](.env.example).
-- **react-parallax** is on **^3.5.2** (declares React 17/18 peers); older `3.0.3` only allowed React 16 and blocked `npm ci` without peer conflicts.
+- **react-parallax** **^3.5.2** — older `3.0.x` only allowed React 16 and caused peer issues; current line works with **React 19** and the pinned lockfile (some dependencies may still declare older React peers and surface harmless npm warnings).
 
 ## Available Scripts
 
