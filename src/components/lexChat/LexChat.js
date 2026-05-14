@@ -19,7 +19,7 @@ const config = {
 
 const WELCOME_MESSAGE = {
   role: "bot",
-  text: "Hi! I'm Kyle's AI assistant. Ask me for his resume, portfolio links, or how to get in touch.",
+  text: "Hi! I'm Kyle's AI assistant. Jules Verne."
 };
 
 const LexChat = () => {
@@ -126,7 +126,7 @@ const LexChat = () => {
         <div className="lex-chat-panel" role="dialog" aria-label="Chat with Kyle's AI assistant">
           <div className="lex-chat-header">
             <div>
-              <strong>Ask Kyle's AI</strong>
+              <strong>Ask Kyle's A.I. Assistant</strong>
               <div className="lex-chat-sub">Powered by Amazon Lex V2</div>
             </div>
           </div>

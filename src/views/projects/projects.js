@@ -6,12 +6,14 @@ import "./project.css";
 import Portfolio from "../../assets/img/projects/portfolio.png";
 import WordPressSite from "../../assets/img/projects/Wordpress-site.png";
 import LandingPage from "../../assets/img/projects/Landing-Page.png";
+import ConnectCallCenter from "../../assets/img/projects/callcenter.png";
 
 import L_HTML5 from "../../assets/img/skills/html-5.svg";
 import L_CSS3 from "../../assets/img/skills/css3.svg";
 import L_REACT from "../../assets/img/skills/react.svg";
 import L_JAVASCRIPT from "../../assets/img/skills/javascript.svg";
 import L_WORDPRESS from "../../assets/img/skills/wordpress-icon.svg";
+import L_TERRAFORM from "../../assets/img/skills/terraform.png"
 
 const PROJECTS = [
   {
@@ -118,6 +120,39 @@ const PROJECTS = [
           </li>
           <li>
             <Image src={L_CSS3} alt="CSS 3" rounded className="image-style m-1" /> CSS3
+          </li>
+        </ul>
+      </>
+    ),
+  },
+  {
+    id: "callcenter",
+    date: "14th May, 2026",
+    title: "AWS Connect Call Center",
+    image: ConnectCallCenter,
+    imageAlt: "AWS Connect Call Center",
+    links: [
+      { label: "SOURCE CODE", href: "https://github.com/KHamwey/terraform-aws-connect-callcenter" },
+    ],
+    details: (
+      <>
+        <p className="timeline-v2__copy">
+          <strong>Description:</strong> This is a AWS Connect Call Center for my portfolio site and up & coming hardware and service business.
+        </p>
+        <hr className="timeline-v2__hr" />
+        <strong>Features:</strong>
+        <ul className="list-styles pt-1">
+          <li>Call and Chat features powered by AWS Connect</li>
+          <li>Chat features powered by AWS Lex</li>
+          <li>AWS Cognito for authentication</li>
+          
+          <li>Terraform for deployment</li>
+        </ul>
+        <hr className="timeline-v2__hr" />
+        <strong>Tech used:</strong>
+        <ul className="timeline-v2__tech">
+          <li>
+            <Image src={L_TERRAFORM} alt="Terraform" rounded className="image-style m-1" /> Terraform
           </li>
         </ul>
       </>
