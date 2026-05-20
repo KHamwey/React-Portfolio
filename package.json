@@ -5,7 +5,7 @@
   "private": true,
   "dependencies": {
     "@aws-sdk/client-lex-runtime-v2": "^3.1045.0",
-    "@aws-sdk/credential-providers": "^3.1045.0",
+    "@aws-sdk/credential-providers": "^3.1050.0",
     "bootstrap": "^5.3.3",
     "buffer": "^6.0.3",
     "framer-motion": "^12.38.0",
