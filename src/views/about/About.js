@@ -8,7 +8,7 @@ import Image from "react-bootstrap/Image";
 import Button from "react-bootstrap/Button";
 
 const RESUME_URL =
-  "https://drive.google.com/file/d/1J9tbuG_LZpYq9Im7tJ4PlHMjfhbTLoMd/view";
+  "https://drive.google.com/file/d/1Np7UcMX4BO9WEDFcgLXjf2rIMAvaM58h/view?usp=sharing";
 const AWS_EXAMPLES_URL =
   "https://docs.google.com/document/d/1E3dpcOhSFnz5-Wo1XbJMNZTC7u1ZzwcB6AedjvvaxkY/edit?usp=sharing";
 const AI_ASSISTANT_CALL_NUMBER = "+18774246658";
